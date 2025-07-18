@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sezar',
-  imports: [],
   templateUrl: './sezar.html',
-  styleUrl: './sezar.css'
+  styleUrls: ['./sezar.css']
 })
 export class Sezar {
+
 
 }
