@@ -1,8 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("../../assets/img/background.jpg") no-repeat center center/cover;
+    background: url("..//..//assets/img/background.jpg") no-repeat center center/cover;
     background-size: cover;
 
 }
@@ -50,8 +49,8 @@ body {
     position: absolute;
     top: 50%;
     left: 10px;
-    transform: translateY(-50%);
-    color: #ccc;
+  transform: translateY(-50%);
+    color: #040000;
 }
 
 .btn {
@@ -61,6 +60,10 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+
 }
 
 .btn-primary {
